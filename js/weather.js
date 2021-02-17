@@ -18,14 +18,6 @@ const key = 'aa5b0a76dfbf87441928fb3cc32d3d72';
 // Set Position function
 setPosition();
 
-function setPosition(position) {
-  // Here you can change your position
-  // You can use https://www.latlong.net/ to get it! (I use San Francisco as an example)
-  let latitude = 43.8608;
-  let longitude = 21.4078;
-
-  getWeather(latitude, longitude);
-}
 
 // Get the Weather data
 function getWeather(latitude, longitude) {
@@ -48,6 +40,15 @@ function getWeather(latitude, longitude) {
     .then(function () {
       displayWeather();
     });
+}
+
+function setPosition(position) {
+  // Here you can change your position
+  // You can use https://www.latlong.net/ to get it! (I use San Francisco as an example)
+  let latitude = 43.859268;
+  let longitude = 21.411119;
+
+  getWeather(latitude, longitude);
 }
 
 // Display Weather info

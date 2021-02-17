@@ -13,10 +13,20 @@ var tempUnit = 'C';
 
 const KELVIN = 273.15;
 // Use your own key for the Weather, Get it here: https://openweathermap.org/
-const key = 'aa5b0a76dfbf87441928fb3cc32d3d72';
+const key = '459770152c4e8622d0b1f1f2729a2f9e';
 
 // Set Position function
 setPosition();
+
+
+function setPosition(position) {
+  // Here you can change your position
+  // You can use https://www.latlong.net/ to get it! (I use San Francisco as an example)
+  let latitude = 43.859268;
+  let longitude = 21.411119;
+
+  getWeather(latitude, longitude);
+}
 
 
 // Get the Weather data
@@ -42,14 +52,6 @@ function getWeather(latitude, longitude) {
     });
 }
 
-function setPosition(position) {
-  // Here you can change your position
-  // You can use https://www.latlong.net/ to get it! (I use San Francisco as an example)
-  let latitude = 43.859268;
-  let longitude = 21.411119;
-
-  getWeather(latitude, longitude);
-}
 
 // Display Weather info
 function displayWeather() {

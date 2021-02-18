@@ -11,16 +11,18 @@
 
   /* Light theme  */
   --accent: #4b8ec4; /* Hover color */
-  --bg: #f5f5f5; /* Background color */
+  background: #6a3093;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #a044ff, #6a3093);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   --sbg: #e4e6e6; /* Cards color */
   --fg: #3a3a3a; /* Foreground color */
   --sfg: #3a3a3a; /* Sceondary Foreground color */
 
   /* Image background  */
 
-  /* Uncoment this section to get the 
-    image wallpaper. You can also 
-    change the --imgcol value 
+  /* Uncoment this section to get the
+    image wallpaper. You can also
+    change the --imgcol value
     to make the filter to your own */
 
   /* --imgbg: url(/img/wal.jpg); */

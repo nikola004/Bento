@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
 
 /* V A R I A B L E S */
 
@@ -11,7 +11,7 @@
 
   /* Light theme  */
   --accent: #4b8ec4; /* Hover color */
-  --bg: #a044ff; /* Background color */
+  --bg: #5cdb95; /* Background color */
   --sbg: #e4e6e6; /* Cards color */
   --fg: #3a3a3a; /* Foreground color */
   --sfg: #3a3a3a; /* Sceondary Foreground color */
@@ -49,7 +49,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   transition: 0.2s ease-in-out;
 }
 
